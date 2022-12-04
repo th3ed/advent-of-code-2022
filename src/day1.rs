@@ -21,7 +21,6 @@ pub fn input_generator(input: &str) -> BinaryHeap<i32> {
 #[aoc(day1, part1)]
 pub fn solve_part1(input: &BinaryHeap<i32>) -> i32 {
     *input.peek().unwrap()
-    // *input.iter().max().unwrap()
 }
 
 #[aoc(day1, part2)]
